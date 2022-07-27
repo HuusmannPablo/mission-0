@@ -4,8 +4,8 @@ function Navbar() {
   return (
     <div className='navbar-body'>
         <div className='left-box'>
-            <img src='' alt='Company Logo'></img>
-            <h1>My Company</h1>
+            <img src='/images/Cafe Monteverde Logo.png' alt='Company Logo'></img>
+            <h1>Café Monteverde</h1>
         </div>
 
         <div className='right-box'>
