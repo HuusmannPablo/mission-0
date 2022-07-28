@@ -1,22 +1,23 @@
-import React from 'react'
+import React from 'react';
+import './Navbar.css' 
 
 function Navbar() {
   return (
     <div className='navbar-body'>
         <div className='left-box'>
-            <img src='/images/Cafe Monteverde Logo.png' alt='Company Logo'></img>
+            <img src='/images/Cafe Monteverde Logo v2.png' alt='Company Logo'></img>
             <h1>Café Monteverde</h1>
         </div>
 
         <div className='right-box'>
             <button className='menu-button'>
-                Menu1
+                About Us
             </button>
             <button className='menu-button'>
-                Menu2
+                Products
             </button>
             <button className='menu-button'>
-                Menu3
+                Tours
             </button>
             <button className='login-button'>
                 Login
