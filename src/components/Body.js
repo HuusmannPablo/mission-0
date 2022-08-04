@@ -1,24 +1,43 @@
 import React from 'react'
+import './Body.css';
 
 function Body() {
   return (
     <div className='body-body'>
         <div className='product-card'>
-            <img src='' alt='Product 1'></img>
-            <h2>Lorem ipsum</h2>
-            <p>Est venenatis</p>
+            <img src='/images/Farm.jpg' alt='Product 1'></img>
+            <h2>Farm</h2>
+            <p>Looking for the perfect landscape</p>
         </div>
 
         <div className='product-card'>
-            <img src='' alt='Product 2'></img>
-            <h2>Lorem ipsum</h2>
-            <p>Est venenatis</p>
+            <img src='/images/Brew.jpg' alt='Product 2'></img>
+            <h2>Brew</h2>
+            <p>State of the art technology</p>
         </div>
         
         <div className='product-card'>
-            <img src='' alt='Product 3'></img>
-            <h2>Lorem ipsum</h2>
-            <p>Est venenatis</p>
+            <img src='/images/Shop.jpg' alt='Product 3'></img>
+            <h2>Shop</h2>
+            <p>Take it home</p>
+        </div>
+        
+        <div className='product-card'>
+            <img src='/images/Nature.jpg' alt='Product 4'></img>
+            <h2>Nature</h2>
+            <p>Why are these mountains here?</p>
+        </div>
+        
+        <div className='product-card'>
+            <img src='/images/Monteverde.jpg' alt='Product 5'></img>
+            <h2>Monteverde</h2>
+            <p>Know us</p>
+        </div>
+        
+        <div className='product-card'>
+            <img src='/images/Coffee.jpg' alt='Product 6'></img>
+            <h2>Cafés</h2>
+            <p>Give it a shot, or two</p>
         </div>
     </div>
   )

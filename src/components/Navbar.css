@@ -1,5 +1,6 @@
 .navbar-body {
-     display: flex;   
+     display: flex;
+     background-color: antiquewhite;   
 }
 
 .left-box {
@@ -15,6 +16,7 @@
 .left-box h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     font-style: italic;
+    font-size: 44px;
 }
 
 .right-box {
@@ -25,22 +27,30 @@
 }
 
 .menu-button {
-    border: 2px solid white;
-    background-color: white;
+    border: 2px solid antiquewhite;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    background-color: antiquewhite;
     padding: 10px 35px;
     cursor: pointer;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .menu-button:hover {
-    border: 2px solid grey;
+    border: 2px solid #276327;
 }
 
 .login-button {
-    border: 2px solid grey;
-    background-color: white;
+    border: 2px solid antiquewhite;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    background-color: antiquewhite;
     margin: 15px;
     padding: 10px 40px;
     cursor: pointer;
-    font-size: 15px;
+    font-size: 16px;
+}
+
+.login-button:hover {
+    border: 2px solid #276327;
 }

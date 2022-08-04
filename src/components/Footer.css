@@ -1,0 +1,22 @@
+.footer-text {
+    border: 1px solid antiquewhite;
+    background-color: #e6d7c4;
+    text-align: right;
+    font-size: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}

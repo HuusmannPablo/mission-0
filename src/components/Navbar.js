@@ -11,13 +11,16 @@ function Navbar() {
 
         <div className='right-box'>
             <button className='menu-button'>
-                About Us
+                Our Story
             </button>
             <button className='menu-button'>
-                Products
+                Our People
             </button>
             <button className='menu-button'>
-                Tours
+                Our Coffee
+            </button>
+            <button className='menu-button'>
+                Our Place
             </button>
             <button className='login-button'>
                 Login
