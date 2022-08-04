@@ -8,16 +8,27 @@
     text-align: center;
     width: 16%;
     padding-top: 25px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; */
 }
 
 .product-card img {
     border-radius: 50%;
+    border: 1px solid gray;
     cursor: pointer;
 }
 
 .product-card img:hover {
     transition: transform 0.3s ease;
     transform: translateY(-10px);
+}
+
+.product-card h2 {
+    margin-top: -3px;
+    font-family: 'Homemade Apple';
+}
+
+.product-card p {
+    font-style: italic;
+    font-size: 15px;
+    margin-top: -15px;
 }

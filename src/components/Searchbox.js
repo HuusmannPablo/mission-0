@@ -9,7 +9,7 @@ function Searchbox() {
   return (
     <div className='searchbox-body'>
         {/* <img src='/images/background-forest.jpg' alt='Coffe Forest'></img> */}
-        <h1>From the jungles of Costa Rica, to the WORLD!</h1>
+        <h1>From the jungles of Costa Rica, to the world...</h1>
         <div className='searchbox-searchbox'>
           <form action="" method="post" class="contactform">
             <p class="textarea_wrapper"><textarea name="search_message" id="search_message"></textarea></p>
