@@ -30,7 +30,8 @@
 .menu-button {
     border: 2px solid antiquewhite;
     border-radius: 5px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; */
+    font-weight: bold;
     background-color: antiquewhite;
     padding: 10px 35px;
     cursor: pointer;
@@ -44,7 +45,8 @@
 .login-button {
     border: 2px solid antiquewhite;
     border-radius: 5px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; */
+    font-weight: bold;
     background-color: antiquewhite;
     margin: 15px;
     padding: 10px 40px;
